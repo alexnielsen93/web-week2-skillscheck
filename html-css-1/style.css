@@ -1,7 +1,10 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+
+
 .banner{
 display: flex;
 background-color: gray;
@@ -21,6 +24,7 @@ align-items: center;
   width: 25%;
   display: flex;
   justify-content: space-around;
+  font-size: smaller;
 }
 .company{
   
@@ -125,8 +129,8 @@ justify-content: center;
 }
 
 .bottom-bit{
-
-  height: 20%;
-  background-color: slategray;
-  width: 100%;
+  height: 100px;
+  width:  100%;
+  background-color: rgb(77, 66, 104);
+  
 }
