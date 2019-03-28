@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.banner{
+display: flex;
+background-color: gray;
+justify-content: space-between;
+color: white;
+margin: 0px;
+height: 50px;
+align-items: center;
+
+}
+
+.company-box{
+ margin-left: 5%;
+}
+
+.nav-bar{
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+.company{
+  
+}
+
+.home{
+  
+}
+.about{
+
+}
+.contact{
+
+}
+
+.top-section{
+  margin: 0px;
+  background-color: black;
+  color: rgb(224, 224, 71);
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt1{
+  font-size: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+.bottom-section{
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.three-boxes{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  
+}
+
+.box1{
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+}
+.box2{
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+}
+.box3{
+  background-color: aquamarine;
+  height: 200px;
+  width: 200px;
+  border-radius: 10%;
+}
+
+.two-rects{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+
+}
+
+.rect1{
+  height: 200px;
+  width: 500px;
+  background-color: orange;
+}
+
+.rect2{
+  height: 200px;
+  width: 500px;
+  background-color: orange;
+}
+
+.txt-and-pic{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.txt-box{
+ width:30%;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+
+}
+.txt2{
+  font-size: 14px;
+  text-align: center;
+  
+}
+
+.bottom-bit{
+
+  height: 20%;
+  background-color: slategray;
+  width: 100%;
+}
